@@ -1,0 +1,125 @@
+body{
+    background: url('../img/fondo.png');
+}
+
+h1{
+    font-family: Arial;
+    font-size: 25px;
+    color: aqua;
+}
+
+h2{
+    font-family: Arial;
+    font-size: 15px;
+}
+
+.contenedor{
+    width: 80%;
+    height: 100%;
+    background-color: rgba(233, 233, 233, 0.8);
+    margin: 0 10% 0 10%;
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: space-around;
+    min-height: 100vh;
+    user-select: none;
+}
+
+
+
+.card{
+    background-color: azure;
+    width: 250px;
+    padding: 15px 10px;
+    display: inline-block;  
+    margin: 10px;
+    flex: 1;
+    border-radius: 15px;
+    background-color: #f0f8fa;
+}
+
+.card:hover{
+    animation: crecer 0.5s ease-in-out alternate;
+    box-shadow: 0px 0px 10px rgba(30, 199, 255, 0.188);
+} 
+
+
+
+.card img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #e1eff9;
+    border-radius: 10px;
+}
+
+
+
+@keyframes crecer {
+    0% {
+        margin-top: 0; 
+    }
+    100% {
+        margin-top: -1px;
+    }
+}
+
+.pill {
+    font-family: "Flexo-Medium", arial, sans-serif;
+    border-radius: 3px;
+    line-height: 18px;
+    max-width: 110px;
+    margin: 0 1.5625% 0 0;
+    width: 38.4375%;
+    float: left;
+    text-transform: none;
+    font-size: 11px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.background-color-grass{
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+
+.background-color-poison{
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+}
+
+.background-color-fire{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+.background-color-watter{
+    background-color: rgb(96, 182, 231);
+    color: white;
+    font-weight: bold;
+}
+
+.background-color-flying {
+    background-color: #3dc7ef;
+    background: linear-gradient(180deg, #3dc7ef 50%, #bdb9b8 50%);
+    font-weight: bold;
+
+}
+
+.background-color-ice {
+    background-color: #3dc7ef;
+    color: black;
+    font-weight: bold;
+}
+
+.background-color-phychic {
+    background-color: #f366b9;
+    color: white;
+    font-weight: bold;
+}
+
